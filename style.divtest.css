@@ -1,0 +1,142 @@
+.navbar{
+    color: chocolate;
+    width: 100;
+    padding: 6px;
+    display: flex;
+    font-weight: 600;
+    margin: auto;
+    background-color: lightblue;
+
+}
+.navbar .logo :hover {
+    color: black;
+    font-size: 22px;
+    display: flex;
+}
+.navbar .logo .a{
+    color: blue;
+    font-weight: 100;
+    font-size: 32px;
+background-color: chocolate;
+}
+.navbar .logo .a .all-links :hover{
+    color: green;
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:url("image.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one {
+    font-size: 25px;
+    color: hotpink;
+}
+.home .text-two{
+    font-size: 50px;
+    color: mediumpurple;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: lightpink;
+}
+.home .text-four {
+    font-size: 23px;
+    margin: 5px 0;
+    color: deeppink;
+}
+.home .button{
+    margin: 14px;
+}
+.home .button button{
+    padding: 9px 20px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: purple;
+    color: white;
+    cursor:pointer;
+    border: 2px solid purple;
+}
+.home .button button:hover{
+   border-color: mediumpurple;
+    background-color: violet;
+    color: lightpink;
+
+}
+.about{
+    width: 100%;
+    height: 100%;
+    background-image:url("Flowers.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    text-align: center;
+}
+.about .text-content{
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.about .text-one{
+    font-size: 30px;
+    background-color: none;
+    margin: 8px;
+    text-align: center;
+}
+.about .text-two{
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+}
+.about .text-three{
+    font-size: 20px;
+    text-align: center;
+    margin: 7px;
+}
+.about .button{
+    margin: 14px;
+    text-align: center;
+}
+.about .button button{
+    padding: 8px 10px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: violet;
+    color: black;
+    cursor: pointer;
+    border: 3px solid hotpink;
+}
+.about .button button:hover{
+    border: violet;
+    background-color: purple;
+    color: #b3d4fc;
+}
+
+
+
+
+
